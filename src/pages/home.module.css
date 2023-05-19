@@ -1,0 +1,85 @@
+.home{
+    position: relative;
+    
+}
+.balanceComponent{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.balanceComponent > div{
+    margin: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main{
+    margin-top: 50px;
+    display: flex;
+    justify-content:space-around;
+}
+.side{
+    display: flex;
+    flex-direction: column;
+}
+.subtitle{
+    
+    
+    
+    
+
+    /* H3 */
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+
+    /* Heading */
+
+    color: #FFFFFF;
+
+}
+.subMain{
+    display: flex;
+    justify-content:space-evenly;
+}
+.subMain > div{
+    margin-top: 35px;
+    margin-left:25px;
+}
+.inputAmount{
+    background: transparent;
+    box-sizing: border-box;
+    height: 48px;
+    width: 262px;
+    border: 1px solid #2F2F30;
+    border-radius: 14px;
+    padding-left: 40px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 20px;
+
+    /* Body Light */
+
+    color: #E8E8E8;
+}
+.dollarSymbol{
+    margin-top: 5px;
+    margin-left: 10px;
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    height: 10.352940559387207px;
+    width: 9.600000381469727px;
+
+    border-radius: 0px;
+
+/* Body Light */
+
+
+}

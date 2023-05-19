@@ -1,0 +1,64 @@
+.balance_background{
+    box-sizing: border-box;
+    height: 100px;
+    width: 355px;
+    
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 4px;
+    position: relative;
+    /* Surface 1 */
+
+    background: #202123;
+    /* Shadows/Surface 1 */
+
+    box-shadow: 0px 20px 30px -18px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+.label{
+    position: relative;
+    width: 49px;
+    height: 20px;
+    left: 24px;
+    top: 22px;
+
+    /* Body/Regular/15 */
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+
+    /* Body Dark */
+
+    color: #9E9E9E;
+}
+.amount{
+    position: absolute;
+    width: 95px;
+    height: 35px;
+    left: 24px;
+    top: 46px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+
+    /* Body Dark */
+
+    color: #9E9E9E;
+}
+.chart{
+    position: absolute;
+    width: 164px;
+    height: 47px;
+    left: 159px;
+    top: 27px;
+
+    /* Purple */
+
+}
